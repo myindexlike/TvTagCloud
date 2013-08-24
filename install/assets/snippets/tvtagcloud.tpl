@@ -1,8 +1,18 @@
-<?php
+//<?php
+/**
+ * TvTagCloud
+ * 
+ * Displays the tags from set of documents in a "tag cloud" or list
+ *
+ * @category 	snippet
+ * @version 	2.2
+ * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
+ * @internal	@properties
+ * @internal	@modx_category Navigation
+ * @internal    @installset base, sample
+ */
+
 /****************************************************
-* Name: TvTagCloud
-* Version: 2.2
-* Desc: Displays the tags from set of documents in a "tag cloud" or list
 * Credits:
 *   Created by Kyle Jaebker and optimized by Mark Kaplan
 *   Style code added by Garry Nutting
@@ -384,4 +394,3 @@ $output .= $end;
 
 
 return $output;
-?>
