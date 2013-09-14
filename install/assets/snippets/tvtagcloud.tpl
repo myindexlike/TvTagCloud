@@ -135,7 +135,7 @@ if (!function_exists('getTags')) {
 		
 		$docTags = array ();
 
-		$baspath= $modx->config["base_path"] . "manager/includes";
+		$baspath= MODX_MANAGER_PATH . "includes";
 	    include_once $baspath . "/tmplvars.format.inc.php";
 	    include_once $baspath . "/tmplvars.commands.inc.php";
 		
