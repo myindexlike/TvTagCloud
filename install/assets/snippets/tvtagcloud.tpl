@@ -336,6 +336,12 @@ switch ($displayType) {
 			$end =  '</ul>';
 		break;
 		
+		case 'list_li':
+			$start = '';
+			$tpl = '<li><a href="[~[+landing+]~][+qs_seperator+][+url_param+]=[+urlencoded_tag+]" title="Click for items tagged [+tag+] [+bracketed_count+]">[+tag+] [+bracketed_count+]</a></li>'."\r\n";
+			$end =  '';
+		break;
+		
 		case 'custom':
 			$start = '';
 			$tpl = $modx->getChunk($customDisplayChunk);
